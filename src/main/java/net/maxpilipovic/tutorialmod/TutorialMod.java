@@ -30,7 +30,7 @@ public class TutorialMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-
+        //TEST
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
