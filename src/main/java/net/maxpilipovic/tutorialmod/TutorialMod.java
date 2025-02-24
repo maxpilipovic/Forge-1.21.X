@@ -2,6 +2,7 @@ package net.maxpilipovic.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.maxpilipovic.tutorialmod.block.ModBlocks;
+import net.maxpilipovic.tutorialmod.item.ModCreativeModeTabs;
 import net.maxpilipovic.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,8 +35,11 @@ public class TutorialMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         //Add Event Bus
+
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
 
 
         // Register the item to a creative tab

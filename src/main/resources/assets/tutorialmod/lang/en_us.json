@@ -1,6 +1,25 @@
 {
   "item.tutorialmod.alexandrite": "Alexandrite Gem",
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite Gem",
+
+  "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.kohlrabi": "Kohlrabi",
+  "item.tutorialmod.aurora_ashes": "Aurora Ashes",
+
   "block.tutorialmod.alexandrite_block": "Alexandrite Block",
-  "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Block"
+  "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Block",
+  "block.tutorialmod.alexandrite_ore": "Alexandrite Ore",
+  "block.tutorialmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+
+  "creativetab.tutorialmod.alexandrite_items": "Alexandrite Items",
+  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is quite MAGICAL",
+
+  "tooltip.tutorialmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.tutorialmod.chisel": "Press shift for more info!",
+
+  "tooltip.tutorialmod.kohlrabi": "This tastes great"
+
+
 }
